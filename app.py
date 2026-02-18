@@ -6,7 +6,7 @@ st.write("This is the app for calculator")
 #ctrl c to stop the streamlit server
 num1 = st.number_input("Enter the first number:")
 num2 = st.number_input("Enter the second number:")
-operation = st.selectbox("Choose an operation:", ["+", "-", "*", "/", "**", "%", "//"]) 
+operation = st.selectbox("Choose operation:", ["+", "-", "*", "/", "**", "%", "//"]) 
 
 if st.button("Calculate"):
     if operation == '+':
