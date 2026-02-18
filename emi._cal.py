@@ -8,4 +8,6 @@ tenure=st.number_input("enter tenure in years:")
 if st.button("EMI"):
     i=principal*tenure*interest/100
     st.write(i)
+    st.write("calculated")
+
     
