@@ -10,7 +10,7 @@ operation = st.selectbox("Choose operation:", ["+", "-", "*", "/", "**", "%", "/
 
 if st.button("Calculate"):
     if operation == '+':
-        st.write(f"Result: {add(num1, num2)}")
+        st.write(f"Result : {add(num1, num2)}")
     elif operation == '-':
         st.write(f"Result: {subtract(num1, num2)}")
     elif operation == '*':
